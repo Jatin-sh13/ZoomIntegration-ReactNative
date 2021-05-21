@@ -6,8 +6,8 @@ const App = () => {
   const [password, setPassword] = useState('')
   const ZoomInit = async () => {
     const a = await ZoomUs.initialize({
-      clientKey: 'HBlrxBJDkSt8aL8dip8TXxHIbdbhsDn25EZ2',
-      clientSecret: 'xadRHR2uVYR4urIdpNfS8iz6lIKIjPzS8wDQ',
+      clientKey: '', //Enter client id here.
+      clientSecret: '', // Enter client secret here.
       domain: 'zoom.us'
     }, {
       disableShowVideoPreviewWhenJoinMeeting: true
